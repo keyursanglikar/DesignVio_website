@@ -5,13 +5,12 @@ function App() {
   return (
 
     <div>
-<Router>
+<r
    <Routes>
    <Route exact path="/" element={<Home />} /> {/* Render Home at root */}
 
 
    </Routes>
-   </Router>
    </div>
   );
 }

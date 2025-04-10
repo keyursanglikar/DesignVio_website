@@ -1,17 +1,17 @@
-import {Routes , Route} from 'react-router-dom';
+import logo from './logo.svg';
 import './App.css';
-import Home from './Component/Home.jsx'
+import Home from './Component/Home.js'
 function App() {
   return (
 
     <div>
-<Router>
+
    <Routes>
    <Route exact path="/" element={<Home />} /> {/* Render Home at root */}
 
 
+
    </Routes>
-   </Router>
    </div>
   );
 }
